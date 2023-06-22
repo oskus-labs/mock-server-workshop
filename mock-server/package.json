@@ -1,0 +1,22 @@
+{
+  "name": "graphql-mock",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.7.0",
+    "@graphql-tools/mock": "^8.7.20",
+    "@graphql-tools/schema": "^9.0.19",
+    "casual": "^1.6.2",
+    "graphql": "^16.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.3",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}

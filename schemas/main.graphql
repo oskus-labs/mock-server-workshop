@@ -1,0 +1,31 @@
+scalar URL
+scalar Date
+
+type Query {
+    homePage: HomePage!
+}
+
+type HomePage {
+    posts: [Post!]!
+}
+
+type Post {
+    id: ID!
+    title: String!
+    image: String!
+    description: String!
+    author: User
+    date: Date
+    comments: [Comment!]!
+}
+
+type Comment {
+    author: User!
+    text: String!
+}
+
+type User {
+    id: ID!
+    name: String!
+    email: String!
+}
